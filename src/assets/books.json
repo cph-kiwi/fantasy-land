@@ -1,6 +1,7 @@
 {
 	"books": [
 		{
+			"id": 0,
 			"title": "The Name of the Wind",
 			"author": "Patrick Rothfuss",
 			"yearPublished": 2007,
@@ -23,6 +24,7 @@
 			"dateAdded": "2023-04-15"
 		},
 		{
+			"id": 1,
 			"title": "Gardens of the Moon",
 			"author": "Steven Erikson",
 			"yearPublished": 1999,
@@ -45,6 +47,7 @@
 			"dateAdded": "2023-06-22"
 		},
 		{
+			"id": 2,
 			"title": "The Way of Kings",
 			"author": "Brandon Sanderson",
 			"yearPublished": 2010,
@@ -67,6 +70,7 @@
 			"dateAdded": "2023-08-30"
 		},
 		{
+			"id": 3,
 			"title": "The Lies of Locke Lamora",
 			"author": "Scott Lynch",
 			"yearPublished": 2006,
@@ -89,6 +93,7 @@
 			"dateAdded": "2023-10-12"
 		},
 		{
+			"id": 4,
 			"title": "The Last Unicorn",
 			"author": "Peter S. Beagle",
 			"yearPublished": 1968,
@@ -111,6 +116,7 @@
 			"dateAdded": "2023-12-05"
 		},
 		{
+			"id": 5,
 			"title": "Uprooted",
 			"author": "Naomi Novik",
 			"yearPublished": 2015,
@@ -133,6 +139,7 @@
 			"dateAdded": "2024-01-18"
 		},
 		{
+			"id": 6,
 			"title": "The Night Circus",
 			"author": "Erin Morgenstern",
 			"yearPublished": 2011,
@@ -155,6 +162,7 @@
 			"dateAdded": "2024-02-07"
 		},
 		{
+			"id": 7,
 			"title": "Perdido Street Station",
 			"author": "China Miéville",
 			"yearPublished": 2000,
@@ -177,6 +185,7 @@
 			"dateAdded": "2024-02-28"
 		},
 		{
+			"id": 8,
 			"title": "Jonathan Strange & Mr Norrell",
 			"author": "Susanna Clarke",
 			"yearPublished": 2004,
@@ -199,6 +208,7 @@
 			"dateAdded": "2024-03-14"
 		},
 		{
+			"id": 9,
 			"title": "The Hundred Thousand Kingdoms",
 			"author": "N.K. Jemisin",
 			"yearPublished": 2010,

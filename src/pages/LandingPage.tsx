@@ -31,19 +31,31 @@ const LandingPage = () => {
 		setSearchTerm(event.target.value);
 	};
 
+	const handleSubmit = (event: React.FormEvent) => {
+		event.preventDefault();
+		window.history.pushState({}, "", `/?search=${searchTerm}`);
+	};
+
 	return (
 		<div>
+			<nav className="nav-center">
+				<Link to="/books" className="back-link">
+					Books →
+				</Link>
+			</nav>
 			<h1>Do you live in fantasy land?</h1>
 			<div className="search-container">
-				<input
-					type="text"
-					value={searchTerm}
-					onChange={handleSearch}
-					placeholder="Search for a book"
-				/>
-				<Link to={`/?search=${searchTerm}`} className="button-link">
-					Search
-				</Link>
+				<form onSubmit={handleSubmit}>
+					<input
+						type="text"
+						value={searchTerm}
+						onChange={handleSearch}
+						placeholder="Search for a book"
+					/>
+					<button type="submit" className="button-link">
+						Search
+					</button>
+				</form>
 			</div>
 
 			{searchTerm && (
@@ -51,7 +63,7 @@ const LandingPage = () => {
 					<h2>Search Results</h2>
 					<ul className="books-list">
 						{searchResults.map((book) => (
-							<BookCard key={book.title} book={book} />
+							<BookCard key={book.id} book={book} />
 						))}
 						{searchResults.length === 0 && (
 							<p>No books found matching "{searchTerm}"</p>
@@ -63,14 +75,9 @@ const LandingPage = () => {
 			<h2>Latest Books</h2>
 			<ul className="carousel-list">
 				{latestBooks.map((book) => (
-					<BookCard key={book.title} book={book} />
+					<BookCard key={book.id} book={book} />
 				))}
 			</ul>
-			<nav className="nav-center">
-				<Link to="/books" className="back-link">
-					Books →
-				</Link>
-			</nav>
 		</div>
 	);
 };

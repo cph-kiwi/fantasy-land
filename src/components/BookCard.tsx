@@ -9,12 +9,13 @@ import theNightCircus from "../assets/TheNightCircus.jpg";
 import perdidoStreetStation from "../assets/PerdidoStreetStation.jpg";
 import jonathanStrange from "../assets/JonathanStrange&MrNorrell.jpg";
 import hundredThousandKingdoms from "../assets/TheHundredThousandKingdoms.jpg";
+import { useNavigate } from "react-router-dom";
 
 interface BookCardProps {
 	book: Book;
 }
 
-const imageMap: Record<string, string> = {
+export const imageMap: Record<string, string> = {
 	"./theNameOfTheWind.jpg": theNameOfTheWind,
 	"./gardensOfTheMoon.jpg": gardensOfTheMoon,
 	"./theWayOfKings.jpg": theWayOfKings,
@@ -28,8 +29,14 @@ const imageMap: Record<string, string> = {
 };
 
 const BookCard = ({ book }: BookCardProps) => {
+	const navigate = useNavigate();
+
 	return (
-		<li className="book-card">
+		<li
+			className="book-card"
+			onClick={() => navigate(`/book/${book.id}`)}
+			style={{ cursor: "pointer" }}
+		>
 			<h3>{book.title}</h3>
 			<p>by {book.author}</p>
 			<img
