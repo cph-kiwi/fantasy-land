@@ -1,0 +1,214 @@
+{
+  "books": [
+    {
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "yearPublished": 2007,
+      "genre": "Fantasy",
+      "pages": 662,
+      "publisher": "DAW Books",
+      "themes": [
+        "Coming of age",
+        "Power of names",
+        "Music and magic",
+        "Quest for knowledge",
+        "Legacy and reputation"
+      ],
+      "description": "The intimate narrative of Kvothe, a young man who grows to become the most notorious wizard his world has ever seen. From his childhood in a troupe of traveling players, to years spent as a near-feral orphan in a crime-ridden city, to his daringly brazen yet successful bid to enter a legendary school of magic.",
+      "coverImage": "https://images.example.com/nameofthewind.jpg",
+      "setting": "The Four Corners of Civilization",
+      "edition": "First Edition",
+      "translator": null,
+      "series": "The Kingkiller Chronicle"
+    },
+    {
+      "title": "Gardens of the Moon",
+      "author": "Steven Erikson",
+      "yearPublished": 1999,
+      "genre": "Fantasy",
+      "pages": 712,
+      "publisher": "Bantam Books",
+      "themes": [
+        "Military conquest",
+        "Political intrigue",
+        "Ancient powers",
+        "Gods and ascendancy",
+        "Complex military campaigns"
+      ],
+      "description": "The Malazan Empire simmers with discontent, its subject states testing the boundaries of loyalty. In the vast dominion of Seven Cities, in the Holy Desert Raraku, a terrible rebellion has been ignited, drawing in the ruling Empire's most powerful mages and military forces.",
+      "coverImage": "https://images.example.com/gardensofthemoon.jpg",
+      "setting": "Malazan Empire",
+      "edition": "Mass Market Paperback",
+      "translator": null,
+      "series": "Malazan Book of the Fallen"
+    },
+    {
+      "title": "The Way of Kings",
+      "author": "Brandon Sanderson",
+      "yearPublished": 2010,
+      "genre": "Fantasy",
+      "pages": 1007,
+      "publisher": "Tor Books",
+      "themes": [
+        "Honor and integrity",
+        "Class struggle",
+        "Leadership",
+        "Faith and doubt",
+        "Ancient mysteries"
+      ],
+      "description": "Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain.",
+      "coverImage": "https://images.example.com/wayofkings.jpg",
+      "setting": "Roshar",
+      "edition": "First Edition Hardcover",
+      "translator": null,
+      "series": "The Stormlight Archive"
+    },
+    {
+      "title": "The Lies of Locke Lamora",
+      "author": "Scott Lynch",
+      "yearPublished": 2006,
+      "genre": "Fantasy",
+      "pages": 499,
+      "publisher": "Gollancz",
+      "themes": [
+        "Friendship and loyalty",
+        "Revenge",
+        "Con artistry",
+        "Class warfare",
+        "Found family"
+      ],
+      "description": "An orphan's life is harsh—and often short—in the mysterious island city of Camorr. But young Locke Lamora dodges death and slavery, becoming a thief under the tutelage of a gifted con artist. As leader of the band of light-fingered brothers known as the Gentleman Bastards, Locke is soon infamous.",
+      "coverImage": "https://images.example.com/liesoflocke.jpg",
+      "setting": "Camorr",
+      "edition": "First Edition",
+      "translator": null,
+      "series": "Gentleman Bastard"
+    },
+    {
+      "title": "The Last Unicorn",
+      "author": "Peter S. Beagle",
+      "yearPublished": 1968,
+      "genre": "Fantasy",
+      "pages": 294,
+      "publisher": "Viking Press",
+      "themes": [
+        "Identity",
+        "Immortality",
+        "Love",
+        "Loss of innocence",
+        "Reality versus illusion"
+      ],
+      "description": "The unicorn lived in a lilac wood, and she lived all alone. She was very old, though she did not know it, and she was no longer the careless color of sea foam but rather the color of snow falling on a moonlit night. But her eyes were still clear and unwearied, and she still moved like a shadow on the sea.",
+      "coverImage": "https://images.example.com/lastunicorn.jpg",
+      "setting": "Medieval Fantasy World",
+      "edition": "First Edition",
+      "translator": null,
+      "series": null
+    },
+    {
+      "title": "Uprooted",
+      "author": "Naomi Novik",
+      "yearPublished": 2015,
+      "genre": "Fantasy",
+      "pages": 435,
+      "publisher": "Del Rey",
+      "themes": [
+        "Nature versus civilization",
+        "Power of friendship",
+        "Magic and its costs",
+        "Cultural identity",
+        "Coming of age"
+      ],
+      "description": "Agnieszka loves her valley home, her quiet village, the forests and the bright shining river. But the corrupted Wood stands on the border, full of malevolent power, and its shadow lies over her life. Her people rely on the cold, driven wizard known only as the Dragon to keep its powers at bay.",
+      "coverImage": "https://images.example.com/uprooted.jpg",
+      "setting": "Kingdom of Polnya",
+      "edition": "First Edition Hardcover",
+      "translator": null,
+      "series": null
+    },
+    {
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "yearPublished": 2011,
+      "genre": "Fantasy",
+      "pages": 387,
+      "publisher": "Doubleday",
+      "themes": [
+        "Love versus duty",
+        "Art and creation",
+        "Competition",
+        "Time and timing",
+        "Dreams and reality"
+      ],
+      "description": "The circus arrives without warning. No announcements precede it. It is simply there, when yesterday it was not. Within the black-and-white striped canvas tents is an utterly unique experience full of breathtaking amazements. It is called Le Cirque des Rêves, and it is only open at night.",
+      "coverImage": "https://images.example.com/nightcircus.jpg",
+      "setting": "Various locations across Victorian era Europe and America",
+      "edition": "First Edition",
+      "translator": null,
+      "series": null
+    },
+    {
+      "title": "Perdido Street Station",
+      "author": "China Miéville",
+      "yearPublished": 2000,
+      "genre": "Fantasy",
+      "pages": 710,
+      "publisher": "Macmillan",
+      "themes": [
+        "Scientific responsibility",
+        "Urban decay",
+        "Social justice",
+        "Identity and transformation",
+        "Art and creation"
+      ],
+      "description": "Beneath the towering bleached ribs of a dead, ancient beast lies New Crobuzon, a squalid city where humans, Re-mades, and arcane races live in perpetual fear of Parliament and its brutal militia. The air and rivers are thick with factory pollutants and the strange effluents of alchemy.",
+      "coverImage": "https://images.example.com/perdidostreet.jpg",
+      "setting": "New Crobuzon",
+      "edition": "First Edition",
+      "translator": null,
+      "series": "Bas-Lag"
+    },
+    {
+      "title": "Jonathan Strange & Mr Norrell",
+      "author": "Susanna Clarke",
+      "yearPublished": 2004,
+      "genre": "Fantasy",
+      "pages": 782,
+      "publisher": "Bloomsbury",
+      "themes": [
+        "Magic and rationality",
+        "Rivalry and friendship",
+        "English identity",
+        "Power and responsibility",
+        "History and myth"
+      ],
+      "description": "At the dawn of the nineteenth century, two very different magicians emerge to change England's history. In the year 1806, with the Napoleonic Wars raging on the continent, most people believe magic to be long dead in England until the reclusive Mr Norrell reveals his powers.",
+      "coverImage": "https://images.example.com/jonathanstrange.jpg",
+      "setting": "England during the Napoleonic Wars",
+      "edition": "First Edition",
+      "translator": null,
+      "series": null
+    },
+    {
+      "title": "The Hundred Thousand Kingdoms",
+      "author": "N.K. Jemisin",
+      "yearPublished": 2010,
+      "genre": "Fantasy",
+      "pages": 427,
+      "publisher": "Orbit",
+      "themes": [
+        "Power dynamics",
+        "Family legacy",
+        "Religion and faith",
+        "Identity and belonging",
+        "Gods and mortals"
+      ],
+      "description": "Yeine Darr is an outcast from the barbarian north. But when her mother dies under mysterious circumstances, she is summoned to the majestic city of Sky. There, to her shock, Yeine is named an heiress to the king. But the throne of the Hundred Thousand Kingdoms is not easily won.",
+      "coverImage": "https://images.example.com/hundredthousand.jpg",
+      "setting": "Sky",
+      "edition": "First Edition",
+      "translator": null,
+      "series": "Inheritance Trilogy"
+    }
+  ]
+}
