@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import booksData from "../assets/books.json";
-import BookCard from "../components/bookCard";
-import { mapBookImage } from "../utils/ImageMapping";
+import BookCard from "../components/BookCard";
+import { mapBookImage } from "../utils/imageMapping";
 
 const LandingPage = () => {
 	const [searchTerm, setSearchTerm] = useState(

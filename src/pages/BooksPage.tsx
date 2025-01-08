@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import BookCard from "../components/bookCard";
+import BookCard from "../components/BookCard";
 import booksData from "../assets/books.json";
-import { mapBookImage } from "../utils/ImageMapping";
+import { mapBookImage } from "../utils/imageMapping";
 
 const BooksPage = () => {
 	const sortedBooks = [...booksData.books]
