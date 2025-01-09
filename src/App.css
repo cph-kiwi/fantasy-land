@@ -70,13 +70,14 @@ h6 {
 .books-list {
 	list-style: none;
 	padding: 4px;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	display: flex;
+	flex-wrap: wrap;
 	gap: 2rem;
 }
 
 /* Book Card Styles */
 .book-card {
+	flex: 0 0 calc(33.333% - 1.334rem);
 	padding: 1.5rem;
 	border-radius: 8px;
 	background-color: #f8f9fa;
@@ -100,8 +101,8 @@ h6 {
 
 .book-card img {
 	width: 100%;
-	height: 400px; /* Fixed height for all book covers */
-	object-fit: cover; /* Maintains aspect ratio while filling container */
+	height: 400px;
+	object-fit: contain;
 	border-radius: 4px;
 	margin-bottom: 1rem;
 }
@@ -233,5 +234,18 @@ h6 {
 
 	.book-info {
 		padding-left: 2rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.book-card {
+		flex: 0 0 100%;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+	.book-card img {
+		height: auto;
+		max-height: 600px;
 	}
 }
