@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import booksData from "../assets/books.json";
-import { imageMap } from "../components/BookCard";
+import { mapBookImage } from "../utils/imageMapping";
 
 const DetailsPage = () => {
 	const { id } = useParams();
@@ -24,7 +24,7 @@ const DetailsPage = () => {
 			</Link>
 			<div className="book-details">
 				<img
-					src={imageMap[book.coverImage] || book.coverImage}
+					src={mapBookImage(book).coverImage}
 					alt={book.title}
 					className="book-cover"
 				/>
