@@ -73,7 +73,7 @@ const LandingPage = () => {
 			)}
 
 			<h2>Latest Books</h2>
-			<ul className="carousel-list">
+			<ul className="books-list">
 				{latestBooks.map((book) => (
 					<BookCard key={book.id} book={book} />
 				))}

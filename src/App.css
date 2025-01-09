@@ -75,42 +75,6 @@ h6 {
 	gap: 2rem;
 }
 
-/* Horizontal Carousel (for Landing Page) */
-.carousel-list {
-	list-style: none;
-	padding: 4px 0 1rem 0;
-	display: flex;
-	gap: 2rem;
-	overflow-x: auto;
-	scroll-snap-type: x mandatory;
-	scroll-behavior: smooth;
-	-webkit-overflow-scrolling: touch;
-}
-
-.carousel-list .book-card {
-	min-width: 300px; /* Fixed width for carousel items */
-	scroll-snap-align: start;
-}
-
-/* Hide scrollbar but keep functionality */
-.carousel-list::-webkit-scrollbar {
-	height: 8px;
-}
-
-.carousel-list::-webkit-scrollbar-track {
-	background: #f1f1f1;
-	border-radius: 4px;
-}
-
-.carousel-list::-webkit-scrollbar-thumb {
-	background: #888;
-	border-radius: 4px;
-}
-
-.carousel-list::-webkit-scrollbar-thumb:hover {
-	background: #555;
-}
-
 /* Book Card Styles */
 .book-card {
 	padding: 1.5rem;
