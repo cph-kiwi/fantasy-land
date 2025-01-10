@@ -15,7 +15,7 @@ const BooksPage = () => {
 			<h1>Books List</h1>
 			<ul className="books-list">
 				{sortedBooks.map((book) => (
-					<BookCard key={book.title} book={book} />
+					<BookCard key={book.id} book={book} />
 				))}
 			</ul>
 		</div>
