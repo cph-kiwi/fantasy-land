@@ -14,8 +14,10 @@ const BookCard = ({ book }: BookCardProps) => {
 			onClick={() => navigate(`/book/${book.id}`)}
 			style={{ cursor: "pointer" }}
 		>
-			<h3>{book.title}</h3>
-			<p>by {book.author}</p>
+			<div className="book-card-header">
+				<h3>{book.title}</h3>
+				<p>by {book.author}</p>
+			</div>
 			<img src={book.coverImage} alt={book.title} />
 		</li>
 	);
