@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import booksData from "../assets/books.json";
 import BookCard from "../components/BookCard";
-import { mapBookImage } from "../utils/imageMapping";
 
 const LandingPage = () => {
 	const [searchTerm, setSearchTerm] = useState(
@@ -14,17 +13,14 @@ const LandingPage = () => {
 			(a, b) =>
 				new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
 		)
-		.slice(0, 3)
-		.map(mapBookImage);
+		.slice(0, 3);
 
 	const searchResults = searchTerm
-		? booksData.books
-				.filter(
-					(book) =>
-						book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-						book.author.toLowerCase().includes(searchTerm.toLowerCase())
-				)
-				.map(mapBookImage)
+		? booksData.books.filter(
+				(book) =>
+					book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+					book.author.toLowerCase().includes(searchTerm.toLowerCase())
+		  )
 		: [];
 
 	const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {

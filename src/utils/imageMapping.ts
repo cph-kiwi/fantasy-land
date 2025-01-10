@@ -1,26 +1,18 @@
 import { Book } from "../types/book";
-import theNameOfTheWind from "../assets/theNameOfTheWind.jpg";
-import gardensOfTheMoon from "../assets/gardensOfTheMoon.jpg";
-import theWayOfKings from "../assets/theWayOfKings.jpg";
-import theLiesOfLockeLamora from "../assets/TheLiesOfLockeLamora.jpg";
-import theLastUnicorn from "../assets/TheLastUnicorn.jpg";
-import uprooted from "../assets/Uprooted.jpg";
-import theNightCircus from "../assets/TheNightCircus.jpg";
-import perdidoStreetStation from "../assets/PerdidoStreetStation.jpg";
-import jonathanStrange from "../assets/JonathanStrange&MrNorrell.jpg";
-import theHundredThousandKingdoms from "../assets/TheHundredThousandKingdoms.jpg";
 
 const imageMap: Record<string, string> = {
-	"./theNameOfTheWind.jpg": theNameOfTheWind,
-	"./gardensOfTheMoon.jpg": gardensOfTheMoon,
-	"./theWayOfKings.jpg": theWayOfKings,
-	"./TheLiesOfLockeLamora.jpg": theLiesOfLockeLamora,
-	"./TheLastUnicorn.jpg": theLastUnicorn,
-	"./Uprooted.jpg": uprooted,
-	"./TheNightCircus.jpg": theNightCircus,
-	"./PerdidoStreetStation.jpg": perdidoStreetStation,
-	"./JonathanStrange&MrNorrell.jpg": jonathanStrange,
-	"./TheHundredThousandKingdoms.jpg": theHundredThousandKingdoms,
+	"../../public/theNameOfTheWind.jpg": "/theNameOfTheWind.jpg",
+	"../../public/gardensOfTheMoon.jpg": "/gardensOfTheMoon.jpg",
+	"../../public/theWayOfKings.jpg": "/theWayOfKings.jpg",
+	"../../public/TheLiesOfLockeLamora.jpg": "/TheLiesOfLockeLamora.jpg",
+	"../../public/TheLastUnicorn.jpg": "/TheLastUnicorn.jpg",
+	"../../public/Uprooted.jpg": "/Uprooted.jpg",
+	"../../public/TheNightCircus.jpg": "/TheNightCircus.jpg",
+	"../../public/PerdidoStreetStation.jpg": "/PerdidoStreetStation.jpg",
+	"../../public/JonathanStrange&MrNorrell.jpg":
+		"/JonathanStrange&MrNorrell.jpg",
+	"../../public/TheHundredThousandKingdoms.jpg":
+		"/TheHundredThousandKingdoms.jpg",
 };
 
 export const mapBookImage = (book: Book) => ({

@@ -1,15 +1,11 @@
 import { Link } from "react-router-dom";
 import BookCard from "../components/BookCard";
 import booksData from "../assets/books.json";
-import { mapBookImage } from "../utils/imageMapping";
 
 const BooksPage = () => {
-	const sortedBooks = [...booksData.books]
-		.sort(
-			(a, b) =>
-				new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
-		)
-		.map(mapBookImage);
+	const sortedBooks = [...booksData.books].sort(
+		(a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
+	);
 
 	return (
 		<div>
