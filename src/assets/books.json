@@ -8,6 +8,7 @@
 			"genre": "Fantasy",
 			"pages": 662,
 			"publisher": "DAW Books",
+			"isbn": "978-0756404741",
 			"themes": [
 				"Coming of age",
 				"Power of names",
@@ -16,7 +17,7 @@
 				"Legacy and reputation"
 			],
 			"description": "The intimate narrative of Kvothe, a young man who grows to become the most notorious wizard his world has ever seen. From his childhood in a troupe of traveling players, to years spent as a near-feral orphan in a crime-ridden city, to his daringly brazen yet successful bid to enter a legendary school of magic.",
-			"coverImage": "/theNameOfTheWind.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0756404741-M.jpg?default=false",
 			"setting": "The Four Corners of Civilization",
 			"edition": "First Edition",
 			"translator": null,
@@ -31,6 +32,7 @@
 			"genre": "Fantasy",
 			"pages": 712,
 			"publisher": "Bantam Books",
+			"isbn": "978-0553819571",
 			"themes": [
 				"Military conquest",
 				"Political intrigue",
@@ -39,7 +41,7 @@
 				"Complex military campaigns"
 			],
 			"description": "The Malazan Empire simmers with discontent, its subject states testing the boundaries of loyalty. In the vast dominion of Seven Cities, in the Holy Desert Raraku, a terrible rebellion has been ignited, drawing in the ruling Empire's most powerful mages and military forces.",
-			"coverImage": "/gardensOfTheMoon.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0553819571-M.jpg?default=false",
 			"setting": "Malazan Empire",
 			"edition": "Mass Market Paperback",
 			"translator": null,
@@ -54,6 +56,7 @@
 			"genre": "Fantasy",
 			"pages": 1007,
 			"publisher": "Tor Books",
+			"isbn": "978-0765326355",
 			"themes": [
 				"Honor and integrity",
 				"Class struggle",
@@ -62,7 +65,7 @@
 				"Ancient mysteries"
 			],
 			"description": "Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain.",
-			"coverImage": "/theWayOfKings.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0765326355-M.jpg?default=false",
 			"setting": "Roshar",
 			"edition": "First Edition Hardcover",
 			"translator": null,
@@ -77,6 +80,7 @@
 			"genre": "Fantasy",
 			"pages": 499,
 			"publisher": "Gollancz",
+			"isbn": "978-0553588941",
 			"themes": [
 				"Friendship and loyalty",
 				"Revenge",
@@ -85,7 +89,7 @@
 				"Found family"
 			],
 			"description": "An orphan's life is harsh—and often short—in the mysterious island city of Camorr. But young Locke Lamora dodges death and slavery, becoming a thief under the tutelage of a gifted con artist. As leader of the band of light-fingered brothers known as the Gentleman Bastards, Locke is soon infamous.",
-			"coverImage": "/TheLiesOfLockeLamora.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0553588941-M.jpg?default=false",
 			"setting": "Camorr",
 			"edition": "First Edition",
 			"translator": null,
@@ -100,6 +104,7 @@
 			"genre": "Fantasy",
 			"pages": 294,
 			"publisher": "Viking Press",
+			"isbn": "978-0451450524",
 			"themes": [
 				"Identity",
 				"Immortality",
@@ -108,7 +113,7 @@
 				"Reality versus illusion"
 			],
 			"description": "The unicorn lived in a lilac wood, and she lived all alone. She was very old, though she did not know it, and she was no longer the careless color of sea foam but rather the color of snow falling on a moonlit night. But her eyes were still clear and unwearied, and she still moved like a shadow on the sea.",
-			"coverImage": "/TheLastUnicorn.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0451450524-M.jpg?default=false",
 			"setting": "Medieval Fantasy World",
 			"edition": "First Edition",
 			"translator": null,
@@ -123,6 +128,7 @@
 			"genre": "Fantasy",
 			"pages": 435,
 			"publisher": "Del Rey",
+			"isbn": "978-0804179034",
 			"themes": [
 				"Nature versus civilization",
 				"Power of friendship",
@@ -131,7 +137,7 @@
 				"Coming of age"
 			],
 			"description": "Agnieszka loves her valley home, her quiet village, the forests and the bright shining river. But the corrupted Wood stands on the border, full of malevolent power, and its shadow lies over her life. Her people rely on the cold, driven wizard known only as the Dragon to keep its powers at bay.",
-			"coverImage": "/Uprooted.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0804179034-M.jpg?default=false",
 			"setting": "Kingdom of Polnya",
 			"edition": "First Edition Hardcover",
 			"translator": null,
@@ -146,6 +152,7 @@
 			"genre": "Fantasy",
 			"pages": 387,
 			"publisher": "Doubleday",
+			"isbn": "978-0385534635",
 			"themes": [
 				"Love versus duty",
 				"Art and creation",
@@ -154,7 +161,7 @@
 				"Dreams and reality"
 			],
 			"description": "The circus arrives without warning. No announcements precede it. It is simply there, when yesterday it was not. Within the black-and-white striped canvas tents is an utterly unique experience full of breathtaking amazements. It is called Le Cirque des Rêves, and it is only open at night.",
-			"coverImage": "/TheNightCircus.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0385534635-M.jpg?default=false",
 			"setting": "Various locations across Victorian era Europe and America",
 			"edition": "First Edition",
 			"translator": null,
@@ -169,6 +176,7 @@
 			"genre": "Fantasy",
 			"pages": 710,
 			"publisher": "Macmillan",
+			"isbn": "978-0345443021",
 			"themes": [
 				"Scientific responsibility",
 				"Urban decay",
@@ -177,7 +185,7 @@
 				"Art and creation"
 			],
 			"description": "Beneath the towering bleached ribs of a dead, ancient beast lies New Crobuzon, a squalid city where humans, Re-mades, and arcane races live in perpetual fear of Parliament and its brutal militia. The air and rivers are thick with factory pollutants and the strange effluents of alchemy.",
-			"coverImage": "/PerdidoStreetStation.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0345443021-M.jpg?default=false",
 			"setting": "New Crobuzon",
 			"edition": "First Edition",
 			"translator": null,
@@ -192,6 +200,7 @@
 			"genre": "Fantasy",
 			"pages": 782,
 			"publisher": "Bloomsbury",
+			"isbn": "978-0765356154",
 			"themes": [
 				"Magic and rationality",
 				"Rivalry and friendship",
@@ -200,7 +209,7 @@
 				"History and myth"
 			],
 			"description": "At the dawn of the nineteenth century, two very different magicians emerge to change England's history. In the year 1806, with the Napoleonic Wars raging on the continent, most people believe magic to be long dead in England until the reclusive Mr Norrell reveals his powers.",
-			"coverImage": "/JonathanStrange&MrNorrell.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0765356154-M.jpg?default=false",
 			"setting": "England during the Napoleonic Wars",
 			"edition": "First Edition",
 			"translator": null,
@@ -215,6 +224,7 @@
 			"genre": "Fantasy",
 			"pages": 427,
 			"publisher": "Orbit",
+			"isbn": "978-0316043915",
 			"themes": [
 				"Power dynamics",
 				"Family legacy",
@@ -223,7 +233,7 @@
 				"Gods and mortals"
 			],
 			"description": "Yeine Darr is an outcast from the barbarian north. But when her mother dies under mysterious circumstances, she is summoned to the majestic city of Sky. There, to her shock, Yeine is named an heiress to the king. But the throne of the Hundred Thousand Kingdoms is not easily won.",
-			"coverImage": "/TheHundredThousandKingdoms.jpg",
+			"coverImage": "https://covers.openlibrary.org/b/ISBN/978-0316043915-M.jpg?default=false",
 			"setting": "Sky",
 			"edition": "First Edition",
 			"translator": null,
